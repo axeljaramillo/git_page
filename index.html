@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Homepage</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My GitHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Welcome to My GitHub</h1>
+                <p class="lead">This is a simple homepage created using Bootstrap. You can use this as a starting point for your GitHub projects.</p>
+                <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+            <div class="col-md-4">
+                <img src="data:image/png;base64,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" alt="Placeholder Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2023 My GitHub. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
